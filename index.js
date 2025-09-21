@@ -8,7 +8,7 @@ app.use(express.json());
 
 // A basic route
 app.get("/", (req, res) => {
-  res.send("Hello, Express!");
+  res.send("Hello, Express from Ankish server!");
 });
 
 // Example of a POST route
